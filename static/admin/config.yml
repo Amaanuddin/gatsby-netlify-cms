@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: master
+  repo: Amaanuddin/gatsby-netlify-cms
 
 media_folder: static/img
 public_folder: /img
@@ -38,7 +39,7 @@ collections:
                 hint: "If an image isn't specified, a default headshot placeholder image will be used",
                 widget: image,
               },
-              { label: Text, name: text, required: true, widget: text },
+              { label: Text, name: text, required: true, widget: "markdown" },
               {
                 label: Links,
                 name: links,
