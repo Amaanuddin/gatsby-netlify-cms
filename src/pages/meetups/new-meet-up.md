@@ -7,7 +7,7 @@ presenters:
     name: Amaan
     presentationTitle: Gatsby
     text: |-
-      This is a new **markdown **text.
+      This is a new **markdown **text. new text
 
       > This is quote
 
